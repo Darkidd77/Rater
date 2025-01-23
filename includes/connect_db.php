@@ -1,9 +1,9 @@
 <?php
 
-DEFINE ('DB_USER', 'c4033230');
-DEFINE ('DB_PASSWORD', 'SHUMySQLThar');
-DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'c4033230_db1');
+DEFINE ('DB_USER', '');
+DEFINE ('DB_PASSWORD', '');
+DEFINE ('DB_HOST', '');
+DEFINE ('DB_NAME', '');
 
 // Create connection
 $dbc = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
