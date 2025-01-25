@@ -1,9 +1,9 @@
 <?php
 
-DEFINE ('DB_USER', '');
-DEFINE ('DB_PASSWORD', '');
-DEFINE ('DB_HOST', '');
-DEFINE ('DB_NAME', '');
+DEFINE ('DB_USER', 'root');
+DEFINE ('DB_PASSWORD', 'gue66me');
+DEFINE ('DB_HOST', 'localhost');
+DEFINE ('DB_NAME', 'rater_db');
 
 // Create connection
 $dbc = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
